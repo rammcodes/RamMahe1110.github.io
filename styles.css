@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.clr {
+  clear: both;
+}
+
+li {
+  list-style: none;
+}
+
+.sec-color {
+  color: #39ff14;
+}
+
+/* upper */
+
+.upper-part {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Assets/astronaut_4-2560x1440.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: silver;
+  font-size: 40px;
+}
+
+.upper-part .nav {
+  position: absolute;
+  width: 100%;
+  font-size: 25px;
+  overflow: auto;
+}
+
+.nav-container {
+  max-width: 1500px;
+  margin: 10px auto;
+  overflow: auto;
+}
+
+.upper-part .nav .brand {
+  float: left;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.upper-part .nav .brand:hover {
+  color: white;
+  cursor: pointer;
+  border-bottom: 1px solid #39ff14;
+}
+
+.upper-part .nav .nav-items {
+  float: right;
+}
+
+.nav .nav-items .nav-item {
+  float: left;
+  padding: 30px;
+}
+
+.upper-part .nav .nav-item:hover {
+  color: white;
+  border-bottom: 1px solid #39ff14;
+  cursor: pointer;
+}
+
+.upper-part .text-part {
+  padding: 400px 300px;
+}
+
+.upper-part .text-part h3 {
+  font-family: "Lato", sans-serif;
+}
+
+/* skills */
+
+.skills-part {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/Assets/astronauts_space_exploration-2560x1440.jpg);
+  background-size: cover;
+  background: black;
+  overflow: auto;
+  height: auto;
+}
+
+.skills-part .skills-title {
+  color: white;
+  width: 20%;
+  margin: 80px auto;
+  padding: 50px 30px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.skills-part .skills-title:hover {
+  color: #39ff14;
+  cursor: pointer;
+  border-color: #39ff14;
+}
+
+.skills .brand {
+  color: black;
+  font-size: 80px;
+  overflow: auto;
+}
+
+.skills {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  text-align: center;
+}
+
+.skills-part .skills li {
+  float: left;
+  width: 33.33%;
+  cursor: pointer;
+  margin: 100px 0;
+}
+
+.skills-part .skills .brand {
+  color: white;
+}
+
+.skills .brand:hover {
+  color: #39ff14;
+}
+
+.skills-part .skills .iconify {
+  width: 50px;
+  height: 50px;
+}
