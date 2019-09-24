@@ -122,6 +122,7 @@
   .first-view .main-content h3 {
     font-size: 3vw;
     width: 80%;
+    top: 52%;
   }
 }
 
@@ -133,7 +134,7 @@
 
   .first-view .main-content h3 {
     font-size: 3vw;
-    top: 50%;
+    top: 52%;
     width: 90%;
     border-width: 1px;
   }
@@ -163,15 +164,21 @@
   }
 }
 
+@media only screen and (max-width: 650px) {
+  .first-view .main-content h3 {
+    top: 50%;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .first-view .main-content h3 {
-    top: 48%;
+    top: 49%;
   }
 }
 
 @media only screen and (max-width: 399px) {
   .first-view .main-content h3 {
-    top: 48%;
+    top: 50%;
   }
 
   .skill {
