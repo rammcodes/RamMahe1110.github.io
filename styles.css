@@ -74,6 +74,7 @@
 }
 
 .skills {
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
