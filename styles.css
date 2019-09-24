@@ -118,12 +118,12 @@
   }
 
   .skills-info-section h1 {
-    width: 25%;
+    width: 30%;
     font-size: 4vw;
   }
 
   .skill {
-    flex: 40%;
+    flex: 30%;
   }
 
   .skill img {
