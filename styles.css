@@ -153,4 +153,8 @@
   .skill {
     flex: 30%;
   }
+
+  .skill p {
+    color: #fff;
+  }
 }
