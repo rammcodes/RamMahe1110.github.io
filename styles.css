@@ -61,6 +61,7 @@
 .skills-info-section {
   position: relative;
   background: black;
+  padding-bottom: 50px;
 }
 
 .skills-info-section h1 {
@@ -74,7 +75,7 @@
 }
 
 .skills {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -114,6 +115,16 @@
   border-bottom: 1px solid #39ff14;
 }
 
+.skills-info-section h2 {
+  padding-bottom: 10px;
+  text-align: center;
+  width: 10%;
+  font-size: 1vw;
+  margin: auto;
+  color: #fff;
+  border-bottom: 1px solid #39ff14;
+}
+
 @media only screen and (max-width: 1300px) {
   .first-view .main-content h3 {
     top: 53%;
@@ -129,6 +140,11 @@
     font-size: 5vw;
     width: 80%;
     top: 52%;
+  }
+
+  .skills-info-section h2 {
+    font-size: 4vw;
+    width: 30%;
   }
 }
 
@@ -167,6 +183,11 @@
 
   .skill p {
     font-size: 4vw;
+  }
+
+  .skills-info-section h2 {
+    font-size: 4vw;
+    width: 30%;
   }
 }
 
