@@ -27,7 +27,7 @@
 
 .first-view .main-content h1 {
   position: absolute;
-  top: 45%;
+  top: 41%;
   left: 50%;
   font-size: 3vw;
   transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@
 
 .first-view .main-content h3 {
   position: absolute;
-  top: 54%;
+  top: 50%;
   left: 50%;
   font-size: 2vw;
   transform: translate(-50%, -50%);
@@ -114,6 +114,17 @@
   border-bottom: 1px solid #39ff14;
 }
 
+@media only screen and (max-width: 1100px) {
+  .first-view .main-content h1 {
+    font-size: 5vw;
+  }
+
+  .first-view .main-content h3 {
+    font-size: 3vw;
+    width: 80%;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .first-view .main-content h1 {
     font-size: 7vw;
@@ -122,7 +133,7 @@
 
   .first-view .main-content h3 {
     font-size: 3vw;
-    top: 51%;
+    top: 50%;
     width: 90%;
     border-width: 1px;
   }
@@ -134,6 +145,8 @@
   .skills-info-section h1 {
     width: 30%;
     font-size: 4vw;
+    margin-bottom: 30%;
+    padding: 10% 0 5% 0;
   }
 
   .skill {
@@ -150,7 +163,17 @@
   }
 }
 
+@media only screen and (max-width: 550px) {
+  .first-view .main-content h3 {
+    top: 48%;
+  }
+}
+
 @media only screen and (max-width: 399px) {
+  .first-view .main-content h3 {
+    top: 48%;
+  }
+
   .skill {
     flex: 25%;
   }
