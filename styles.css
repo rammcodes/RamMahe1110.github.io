@@ -151,6 +151,6 @@
 
 @media only screen and (max-width: 399px) {
   .skill {
-    flex: 30%;
+    flex: 25%;
   }
 }
