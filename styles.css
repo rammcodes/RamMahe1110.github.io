@@ -94,6 +94,8 @@
 }
 
 .skill img {
+  width: 80px;
+  height: 80px;
   position: absolute;
   top: 30%;
   left: 50%;
@@ -103,6 +105,8 @@
 .skill p {
   position: absolute;
   top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 1vw;
   color: #39ff14;
   padding-bottom: 10px;
@@ -138,5 +142,9 @@
   .skill img {
     width: 70px;
     height: 70px;
+  }
+
+  .skill p {
+    font-size: 4vw;
   }
 }
