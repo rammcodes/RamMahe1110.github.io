@@ -1,96 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Oneder &mdash; Website Template by Colorlib</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900&display=swap"
       rel="stylesheet"
     />
-    <title>Ram Maheshwari</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/jquery-ui.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="./css/bootstrap-datepicker.css" />
+
+    <link rel="stylesheet" href="./fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="./fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="./css/aos.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
   </head>
-  <body>
-    <div>
-      <div class="first-view">
-        <div class="main-content">
-          <h1><span class="highlighted">Ram</span> Maheshwari</h1>
-          <h3>
-            Passionate Product
-            <span class="highlighted">Developer</span>
-          </h3>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div class="site-wrap">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <header
+        class="site-navbar py-4 js-sticky-header site-navbar-target"
+        role="banner"
+      >
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-6 col-xl-2">
+              <h1 class="mb-0 site-logo">
+                <a href="index.html" class="mb-0">RM</a>
+              </h1>
+            </div>
+
+            <div class="col-12 col-md-10 d-none d-xl-block">
+              <nav
+                class="site-navigation position-relative text-right"
+                role="navigation"
+              >
+                <ul
+                  class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block"
+                >
+                  <li><a href="#home-section" class="nav-link">Home</a></li>
+                  <li>
+                    <a href="#about-section" class="nav-link">About</a>
+                  </li>
+                  <li>
+                    <a href="#portfolio-section" class="nav-link">Projects</a>
+                  </li>
+                  <li>
+                    <a href="#services-section" class="nav-link">Services</a>
+                  </li>
+                  <li>
+                    <a href="#contact-section" class="nav-link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+
+            <div
+              class="col-6 d-inline-block d-xl-none ml-md-0 py-3"
+              style="position: relative; top: 3px;"
+            >
+              <a href="#" class="site-menu-toggle js-menu-toggle float-right"
+                ><span class="icon-menu h3"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div
+        class="site-blocks-cover overlay"
+        style="background-image: url(images/hero_1.jpg);"
+        data-aos="fade"
+        id="home-section"
+      >
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-8 mt-lg-5 text-center">
+              <h1 class="text-uppercase mb-5" data-aos="fade-up">
+                Ram Maheshwari
+              </h1>
+              <h3 class="text-uppercase mb-5 mg-0 cl-w" data-aos="fade-up">
+                Web Developer
+              </h3>
+              <div data-aos="fade-up" data-aos-delay="100">
+                <a
+                  href="#contact-section"
+                  class="btn smoothscroll btn-primary mr-2 mb-2"
+                  >Get In Touch</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#about-section" class="mouse smoothscroll">
+          <span class="mouse-icon">
+            <span class="mouse-wheel"></span>
+          </span>
+        </a>
+      </div>
+
+      <div class="site-section cta-big-image" id="about-section">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img
+                  src="images/undraw_dev_productivity_umsq.svg"
+                  alt="Image"
+                  class="img-fluid"
+                />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">For the next great business</h3>
+                <p>
+                  Hi there! My name is Ram Maheshwari and I am a Web Developer
+                  currently located in Pune, India. I am passionate about
+                  converting your dream idea into reality by helping you in
+                  creating the next Billion Dollar Software :)
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li>Self Motivated</li>
+                  <li>Focused</li>
+                  <li>Committed to learning</li>
+                  <li>Quick Learner</li>
+                </ul>
+              </div>
+
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Get In Touch</a
+                >
+              </p>
+            </div>
+          </div>
         </div>
       </div>
+
+      <section id="skills">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">Skills</h2>
+            </div>
+          </div>
+
+          <div class="main-content">
+            <div class="img-container">
+              <img src="./images/html-5.svg" alt="html" />
+            </div>
+            <div class="img-container">
+              <img src="./images/css3.svg" alt="css" />
+            </div>
+            <div class="img-container">
+              <img src="./images/javascript.svg" alt="js" />
+            </div>
+            <div class="img-container">
+              <img src="./images/react.svg" alt="react" />
+            </div>
+            <div class="img-container">
+              <img src="./images/redux.svg" alt="redux" />
+            </div>
+            <div class="img-container">
+              <img src="./images/nodejs.svg" alt="node" />
+            </div>
+            <div class="img-container">
+              <img src="./images/express-109.svg" alt="express" />
+            </div>
+            <div class="img-container">
+              <img src="./images/postgresql.svg" alt="postgreSQL" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="site-section" id="portfolio-section">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">Projects</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/ps.png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Planet-Spinach Ecommerce</h3>
+                <p>
+                  App to buy Healthy Food Items
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - React, Redux</li>
+                  <li><strong>Backend</strong> - Express, PostgreSQL</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://planet-spinach.herokuapp.com/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/cc.png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Crown Clothing Ecommerce</h3>
+                <p>
+                  Web App to buy Latest Trending Cloths
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - React, Redux</li>
+                  <li><strong>Backend</strong> - Firebase</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://crown-clothing-islive.herokuapp.com/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/sb.png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Smart-Brain Face Detection</h3>
+                <p>
+                  App that detect's faces from your pictures
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - React</li>
+                  <li><strong>Backend</strong> - Express, PostgreSQL</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://smart-brain-detect-face.herokuapp.com/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/dc (1).png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Dev Connector</h3>
+                <p>
+                  Social Network for Developers
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - React, Redux</li>
+                  <li><strong>Backend</strong> - Express, MongoDB</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://secret-anchorage-53824.herokuapp.com/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/pl.png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">PiggyLand - Landing Page</h3>
+                <p>
+                  Static Website Made using Html and Css
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - Html5, Css3</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://rammahe1110.github.io/PiggyLand/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
+              <figure class="circle-bg">
+                <img src="images/ecg.png" alt="Image" class="img-fluid" />
+              </figure>
+            </div>
+            <div
+              class="col-lg-5 ml-auto"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="mb-4">
+                <h3 class="h3 mb-4 text-black">Epic Games Clone</h3>
+                <p>
+                  Clone Epic Games offical website's home page
+                </p>
+              </div>
+
+              <div class="mb-4">
+                <ul class="list-unstyled ul-check success">
+                  <li><strong>Frontend</strong> - Html5, Css3</li>
+                </ul>
+              </div>
+
+              <p>
+                <a
+                  href="https://rammahe1110.github.io/Epic-Games-Clone/"
+                  class="smoothscroll btn btn-primary"
+                  >Live Demo</a
+                >
+              </p>
+              <p>
+                <a href="#contact-section" class="smoothscroll btn btn-primary"
+                  >Github Repo</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="site-section border-bottom bg-light"
+        id="services-section"
+      >
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center" data-aos="fade">
+              <h2 class="section-title mb-3">My Services</h2>
+            </div>
+          </div>
+          <div class="row align-items-stretch">
+            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4">
+                  <span class="text-primary flaticon-startup"></span>
+                </div>
+                <div>
+                  <h3>Frontend Development</h3>
+                  <p>
+                    Expert in creating the frontend of your Application
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 mb-4 mb-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4">
+                  <span class="text-primary flaticon-graphic-design"></span>
+                </div>
+                <div>
+                  <h3>Backend Development</h3>
+                  <p>
+                    Can create the backend of your App using Latest technologies
+                    like Express, PostgreSQL
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-lg-4 mb-4 mb-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="unit-4">
+                <div class="unit-4-icon mr-4">
+                  <span class="text-primary flaticon-settings"></span>
+                </div>
+                <div>
+                  <h3>Full Stack Development</h3>
+                  <p>
+                    Yeah! I will help you to build that Entire Software
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="site-section bg-light"
+        id="contact-section"
+        data-aos="fade"
+      >
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <h2 class="section-title mb-3">Contact Us</h2>
+            </div>
+          </div>
+          <div class="row mb-5">
+            <div class="col-md-4 text-center">
+              <p class="mb-4">
+                <span class="icon-room d-block h4 text-primary"></span>
+                <span> Pune, India</span>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <p class="mb-4">
+                <span class="icon-phone d-block h4 text-primary"></span>
+                <a href="#">+91 7030110904</a>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <p class="mb-0">
+                <span class="icon-mail_outline d-block h4 text-primary"></span>
+                <a href="#">ram991011@gmail.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-5">
+              <form action="#" class="p-5 bg-white">
+                <h2 class="h4 text-black mb-5">Contact Form</h2>
+
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="fname">First Name</label>
+                    <input type="text" id="fname" class="form-control" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="text-black" for="lname">Last Name</label>
+                    <input type="text" id="lname" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="email">Email</label>
+                    <input type="email" id="email" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="subject">Subject</label>
+                    <input type="subject" id="subject" class="form-control" />
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="message">Message</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="7"
+                      class="form-control"
+                      placeholder="Write your notes or questions here..."
+                    ></textarea>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input
+                      type="submit"
+                      value="Send Message"
+                      class="btn btn-primary btn-md text-white"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-5">
+                  <h2 class="footer-heading mb-4">Thanks</h2>
+                  <p>
+                    Thank you for visiting my website :)
+                  </p>
+                </div>
+                <div class="col-md-3 ml-auto">
+                  <h2 class="footer-heading mb-4">Quick Links</h2>
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#about-section" class="smoothscroll">About</a>
+                    </li>
+                    <li>
+                      <a href="#contact-section" class="smoothscroll"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h2 class="footer-heading mb-4">Connect</h2>
+                  <a href="https://github.com/RamMahe1110" class="pl-3 pr-3"
+                    ><span class="icon-github"></span
+                  ></a>
+                  <a
+                    href="https://www.linkedin.com/in/ram-maheshwari-582959154/"
+                    class="pl-3 pr-3"
+                    ><span class="icon-linkedin"></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5 mt-5 text-center">
+            <div class="col-md-12">
+              <div class="border-top pt-5">
+                <p>
+                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <div class="skills-info-section">
-      <h1>Skills</h1>
-      <div class="skills">
-        <div class="skill">
-          <img src="/ass/png/html5-20.png" alt="js" />
-          <p>HTML5</p>
-        </div>
-        <div class="skill">
-          <img src="ass/png/css3-10.png" alt="react" />
-          <p>CSS3</p>
-        </div>
-        <div class="skill">
-          <img src="ass/png/javascript-19.png" alt="js" />
-          <p>JavaScript</p>
-        </div>
-        <div class="skill">
-          <img src="ass/png/react-2 (1).png" alt="js" />
-          <p>React</p>
-        </div>
-        <div class="skill">
-          <img src="ass/png/redux.png" alt="js" />
-          <p>Redux</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/node-js.png" alt="js" />
-          <p>Node</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/express-8 (1).png" alt="js" />
-          <p>Express</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/mongodb-2.png" alt="js" />
-          <p>MongoDB</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/postgresql-8.png" alt="PostgreSQL" />
-          <p>PostgreSQL</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/python-8.png" alt="Python" />
-          <p>Python</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/git-11.png" alt="Git" />
-          <p>Git</p>
-        </div>
-        <div class="skill">
-          <img src="/ass/png/github-84.png" alt="Github" />
-          <p>Github</p>
-        </div>
-      </div>
-      <h2>& many more...</h2>
-    </div>
-    <footer>
-      <div class="connect-items">
-        <h4 class="connect-item">+91-7030110904</h4>
-        <h4 class="connect-item">ram1110@gmail.com</h4>
-      </div>
-      <div class="social">
-        <div class="social-item">
-          <img class="social-item" src="/ass/png/github-84.png" alt="Github" />
-        </div>
-        <!-- <div class="social-item">
-          <img class="social-item" src="/ass/png/github-84.png" alt="Github" />
-        </div> -->
-      </div>
-    </footer>
-    <script src="https://code.iconify.design/1/1.0.3/iconify.min.js"></script>
+    <!-- .site-wrap -->
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <script src="js/main.js"></script>
   </body>
 </html>
